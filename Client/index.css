@@ -1,0 +1,18 @@
+.unliked {
+    background: url("./Portraits/Other/stars/iconmonstr-star-3.svg") no-repeat;
+    height: 40px;
+    width: 40px;
+}
+/* input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:enabled + label{
+        display: fl;
+}
+
+input[type="radio"]:disabled + label{
+    visibility: hidden;
+    display: none;
+} */
+
+

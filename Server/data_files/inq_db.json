@@ -1,0 +1,30 @@
+[
+    {
+        "id": "elf_inq",
+        "f_port_link": "Portraits/Races/F_Elf.png",
+        "m_port_link": "Portraits/Races/M_Elf.png",
+        "desc": "Enslaved long ago by humans, most elves still live as second-class citizens within human cities. Elves who reject this life are known as the Dalish: nomadic wanderers who strive to keep the ancient elven religion and traditions alive.<br>The inquisitor grew up in the wilderness, a member of the Lavellan Dalish clan and apprentice to its leader and guide, the Keeper. The clan wandered the northern Free Marches, and the inquisitor had little need to interact with humans—until the Keeper sent them to the Chantry's conclave as a spy. What happened there, she said, would impact not only the Dalish but indeed all elves. She could not have known how right she was."
+    },
+
+    {    
+        "id": "human_inq",
+        "f_port_link": "Portraits/Races/F_Human.png",
+        "m_port_link": "Portraits/Races/M_Human.png",
+        "desc": "As the youngest child of the Trevelyan noble house, the inquisitor grew up in the Free Marcher city of Ostwick and have enjoyed a life of privilege. With close family ties to the Chantry, and many relatives among the priesthood and the templars, they were always expected to follow a similar path in service of the Maker—regardless of how they felt about the matter personally. They were sent to the Chantry's conclave to assist relatives who sought to make peace between the templars and mages. It didn't go well."
+    },
+
+    {    
+        "id": "dwarf_inq",
+        "f_port_link": "Portraits/Races/F_Dwarf.png",
+        "m_link": "Portraits/Races/M_Dwarf.png",
+        "desc": "The dwarves of Thedas are known for their once-vast underground empire, for their guilds of merchants and warriors which are held in high esteem by the other races of Thedas, but the inquisitor not one of these dwarves. A cast-off 'surfacer,' unwelcome among the dwarves or most humans, they have scraped by as part of a criminal fraternity known as the Carta, smuggling magical ore known as lyrium. As part of the ruthless Cadash crime family, they spent their life on the streets of various Free Marcher city-states—until they were sent to the Chantry conclave as a spy and everything changed."
+    },
+    
+    {
+        "id": "qunari_inq",
+        "f_port_link": "Portraits/Races/F_Qunari.png",
+        "m_port_link": "Portraits/Races/M_Qunari.png",
+        "desc": "Followers of the strict religious philosophy of the Qun, the Qunari appeared like a tidal wave to the north of Thedas three hundred years ago. The inquisitor is Tal-Vashoth, a Qunari who has rejected the Qun and never even lived in Qunari lands. As a part of the Valo-kas mercenary company, they  earned a living by their own wits and the strength of their blade, ignoring the fearful looks they received from those around them. Most recently the company was sent to the Chantry conclave as hired swords meant to keep the peace between mages and templars—a task that has gone horribly wrong."
+    }
+
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "char_id": 0,
+        "f_name": "Blackwall",
+        "l_name": "",
+        "gender": "Male",
+        "race": "Human",
+        "role": "Warrior",
+        "spec": "Champion",
+        "like_status": "unliked",
+        "quote": "At the heart of it, all a Warden is, is a promise. To protect others... even at the cost of your own life.",
+        "desc": "The Grey Wardens hold a lonely vigil, enduring lives of hardship and sacrifice to protect the world from an evil that can never truly be conquered. Few would volunteer for this: the suffering, isolation, and promise of a violent death. But the path of a Warden is also one of valor, and those who give themselves to the cause are rewarded with the knowledge that they have become something more than they were. Blackwall is one of the rare few Wardens who chose, of his own accord, to pick up the shield. He believes so wholeheartedly in the noble ideal of the Grey Wardens that he would rather have this life than any other.",
+        "img_link": "Portraits/Characters/Blackwall.png"
+    },
+
+    {
+        "char_id": 1,
+        "f_name": "Cassandra",
+        "l_name": "Pentaghast",
+        "gender": "Female",
+        "race": "Human",
+        "role": "Warrior",
+        "spec": "Templar",
+        "like_status": "unliked",
+        "quote": "One day, they may write about me as a traitor, a madwoman, a fool. And they may be right.",
+        "desc": "Though of noble birth, Cassandra Pentaghast turned her back on a life of wealth and privilege to join the Seekers of Truth. The ancient order serves as a watchful eye over corruption and magical threats, granted ultimate authority in its investigations by the Chantry—or it did, prior to abandoning their duty in response to the mage rebellion. Cassandra did not join her brothers in this, instead remaining loyal to Divine Justinia and her efforts to restore order in the face of chaos. She is both pious and driven, the sword in the right hand of the Divine, seeking justice above all else.",
+        "img_link": "Portraits/Characters/Cassandra.png"
+    },
+    
+    {
+        "char_id": 2,
+        "f_name": "Cole",
+        "l_name": "",
+        "gender": "Male",
+        "race": ["Spirit (compassion)", "Demon", "Human"],
+        "role": "Rogue",
+        "spec": "Assassin",
+        "like_status": "unliked",
+        "quote": "It doesn't matter that they won't remember me. What matters is I helped.",
+        "desc": "He is a ghost in the shadows, walking unnoticed through crowds. He can slit an enemy's throat before they even realize he's there, and slip away, never to be seen again. Those few who do notice him soon forget he ever existed… and Cole isn't certain that he does exist. He is a spirit, impossibly caught between the immaterial realm of the Fade and the confusing realities of our physical world, but does that make him real? Does it make him human or a demonic pretender, as some believe? <br> All Cole knows for certain is that the world is full of pain and he must find his place within it. Those who wish to restore order and help the helpless will find him a strange but unwavering ally. Those who use their power for selfish reasons may never see Cole again—if they remember that he was there to begin with.",
+        "img_link": "Portraits/Characters/Cole.png"
+    },
+    
+    {
+        "char_id": 3,
+        "f_name": "Cullen",
+        "l_name": "Rutherford",
+        "gender": "Male",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "No one ever listens, not until it's far too late.",
+        "desc": "Cullen has seen the worst that magic and corruption can do to innocent people. Trained from a young age, he has devoted more than half his life in service to the Templar Order. He saw the Ferelden Circle fall during the Blight and was witness to the mage-templar conflict that tore Kirkwall apart. In the aftermath, it was Cullen who rallied what remained of Kirkwall's templars to restore order to the devastated city. His leadership and integrity caught the attention of Cassandra Pentaghast, who recognized in him a vital component in forming the Inquisition. Now the world is falling into chaos. Cullen is through waiting for others to act, and he's determined that the Inquisition will make a difference for the people of Thedas.",
+        "img_link": "Portraits/Characters/Cullen.png"
+    },
+    
+    {
+        "char_id": 4,
+        "f_name": "Dorian",
+        "l_name": "Pavus",
+        "gender": "Male",
+        "race": "Human",
+        "role": "Mage",
+        "spec": "Necromancer",
+        "like_status": "unliked",
+        "quote": "I'm here to set things right. Also? To look dashing. That part's less difficult.",
+        "desc": "Being from a proud bloodline of the Tevinter Imperium has its advantages: Dorian was born with a flair for magic that made him the envy of his peers. He is charming and confident, his wit as sharp as any blade, and if some suggest his manner cocky, it could be attributed to being a powerful mage in a land where mages rule. Indeed, Dorian would be the pride of his family—if he didn't oppose everything his homeland has come to stand for. He wears the labels of 'pariah' and 'outcast' proudly, knowing that views of the Imperium are unlikely to change until and unless someone of his ability stands up to make a difference.",
+        "img_link": "Portraits/Characters/Dorian.png"
+    },
+    
+    {
+        "char_id": 5,
+        "f_name": "Iron Bull",
+        "l_name": "",
+        "gender": "Male",
+        "race": "Qunari",
+        "role": "Warrior",
+        "spec": "Reaver",
+        "like_status": "unliked",
+        "quote": "Also, it's 'THE Iron Bull.' I like having an article at the front. It makes it sound like I'm not even a person, just a mindless weapon, an implement of destruction... That really works for me.",
+        "desc": "Qunari are known across Thedas as the brutal horned giants who descended from the north to nearly conquer the continent. These ruthless followers of a harsh philosophy enforce their will through the Ben-Hassrath: their spies and secret police. One brilliant agent did it all, hunting spies, rebels, and deserters until the day he finally broke. To preserve a valuable asset, his superiors sent him to Orlais to observe and report… and The Iron Bull was born.<br>Today, Bull's Chargers are famous mercenaries, fiercely loyal to the huge Qunari warrior who leads them into battles and taverns with equal enthusiasm. The Iron Bull still sends the Ben-Hassrath reports, but years of living outside Qunari rules have him wondering which identity is really him. Whoever he is, he's more than happy to join the Inquisition and get paid to kill demons.",
+        "img_link": "Portraits/Characters/Iron Bull.png"
+    },
+    
+    {
+        "char_id": 6,
+        "f_name": "Josephine",
+        "l_name": "Montilyet",
+        "gender": "Female",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "Common ground is the start of all negotiations.",
+        "desc": "The Inquisition's power is not absolute: it must earn its place among the forces in conflict. Sister Leliana understands this well, and has called on an old friend, Lady Josephine Montilyet, to be the Inquisition's ambassador in the halls of the influential. The eldest daughter of a noble Antivan family, Josephine is a rising star among diplomats, skilled at forging alliances with tact, grace, and carefully cultivated favors. She is a consummate planner who understands that resurrecting the Inquisition will require support and goodwill from Thedas's movers and shakers. Fortunately, the ambassador enjoys a challenge, and she sincerely believes that the Inquisition is the best way to halt the chaos sweeping Thedas.",
+        "img_link": "Portraits/Characters/Josephine.png"
+    },
+    
+    {
+        "char_id": 7,
+        "f_name": "Leliana",
+        "l_name": "",
+        "gender": "Female",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "The only way out of this game is to kill or be killed.",
+        "desc": "She has many names. Most know her as Sister Nightingale” or “the Left Hand of the Divine.” To the rare friend, she is Leliana. They say she found faith amid darkness, and that her devotion to the Maker is matched only by her devotion to Divine Justinia V, a woman who is both mentor and savior. Those who have earned her loyalty know her as a steadfast ally. But enemies of the Divine know to fear her, for she is the shadow behind the Sunburst Throne—the one who watches and waits, who strikes when her mark is most vulnerable and least suspecting.",
+        "img_link": "Portraits/Characters/Leliana.png"
+    },
+    
+    {
+        "char_id": 8,
+        "f_name": "Sera",
+        "l_name": "",
+        "gender": "Female",
+        "race": "Elf",
+        "role": "Rogue",
+        "spec": "Tempest",
+        "like_status": "unliked",
+        "quote": "Bad things should happen to bad people. We find someone not so bad, maybe he'll end up not so dead.",
+        "desc": "Sera is impulsive and revels in the moment. For her, it's not about what's right, it's about what's right now. In the Friends of Red Jenny, she humbled authority and had fun doing it. But now the nobility are being not just selfish but blind. War, demons, a torn sky: these are more than troubling—they're terrifying. Fortunately, Sera and her friends can be frightening, too, and if she needs to put an arrow through some baddies so regular people can sleep at night, so be it. Sera fights for those caught in the middle, but she also needs order restored. The world has to be normal so she can play.",
+        "img_link": "Portraits/Characters/Sera.png"
+    },
+    
+    {
+        "char_id": 9,
+        "f_name": "Solas",
+        "l_name": "",
+        "gender": "Male",
+        "race": "Elf",
+        "role": "Mage",
+        "spec": "Rift Mage",
+        "like_status": "unliked",
+        "quote": "No real god need prove himself. Anyone who tries is mad or lying.",
+        "desc": "Solas has spent his life as an apostate, living in the wilderness well away from the civilized world and those who would shackle him for what he is. He mastered his magic without the help of tutors, spending years exploring the spirit realm of the Fade and coming to an understanding of its denizens that few others could claim. He would be happiest left alone to sleep in ancient ruins, searching for memories and knowledge that has been lost for ages, but the Breach in the sky threatens all worlds.<br>At a time when other mages flee into hiding, Solas has put his freedom at risk by emerging from the shadows to assist those who would combat the chaos. He will not stand idly by when his knowledge of the arcane could mean the difference between salvation and utter destruction.",
+        "img_link": "Portraits/Characters/Solas.png"
+    },
+    
+    {
+        "char_id": 10,
+        "f_name": "Varric",
+        "l_name": "Tethras",
+        "gender": "Male",
+        "race": "Dwarf",
+        "role": "Rogue",
+        "spec": "Artificer",
+        "like_status": "unliked",
+        "quote": "There's power in stories, though. That's all history is: The best tales. The ones that last. Might as well be mine.",
+        "desc": "Varric Tethras is one part adventurous rogue, one part dashing storyteller, and three parts trouble. Born on the surface, Varric has little love for his underground brethren—all his contacts lie with the dwarves of the Merchants Guild, though he has little taste for their schemes. Still, he has found a place as an outsider, rubbing shoulders with both the wealthy elite as well as the worst of scoundrels. To hear him tell of it, that's all he truly cares about, though anyone who truly knows him claims differently. They say that, try as he might, Varric has been drawn more and more into conflicts that shake the world—ones that he can't get himself out of with a quick tale.",
+        "img_link": "Portraits/Characters/Varric.png"
+    },
+    
+    {
+        "char_id": 11,
+        "f_name": "Vivienne",
+        "l_name": "",
+        "gender": "Female",
+        "race": "Human",
+        "role": "Mage",
+        "spec": "Knight-Enchanter",
+        "like_status": "unliked",
+        "quote": "For those who value survival, sentimentality is not an option.",
+        "desc": "Referred to as Madame de Fer, “the Lady of Iron”, Vivienne lives up to her title. A leader among the mages and official enchanter to the Imperial court, she is renowned as a fearsome woman who achieved her position through guile and deft political maneuvering. Vivienne allows nothing to stand in the way of what she desires—not those who claim she is a social climber, not those who seek to restrict her power, not even her fellow mages who would conscript her into a rebellion with which she disagrees. Vivienne fights to restore order in a world gone mad…so long as that leaves her among those left standing, once all is said and done.",
+        "img_link": "Portraits/Characters/Vivienne.png"
+    },
+    
+    {
+        "char_id": 12,
+        "f_name": "Morrigan",
+        "l_name": "",
+        "gender": "Female",
+        "race": "Human",
+        "role": "Mage",
+        "spec": "Shapeshifter",
+        "like_status": "unliked",
+        "quote": "Mankind blunders through the world, crushing what it does not understand; elves, dragons, magic...the list is endless. We must stem the tide, or be left with nothing more than the mundane. This I know to be true.",
+        "desc": "Whether the dark-haired sorceress seeks to influence the Imperial throne, or harbors more sinister motives, no-one knows for certain. This Witch of the Wilds arrived in Orlais rather suddenly three years ago as the newly-appointed “arcane advisor” to Empress Celene. In this role, Morrigan presents a source of information unfiltered by religious dogma, and satisfies Celene's life-long curiosity about magic. However, whispers carry concern of Morrigan having Celene wrapped around her finger, teaching the Empress forbidden, dark arts in secret.",
+        "img_link": "Portraits/Characters/Morrigan.png"
+    }
+    
+]

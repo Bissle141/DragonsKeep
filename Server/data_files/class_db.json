@@ -1,0 +1,41 @@
+[
+    {
+        "id": 0,
+        "role": "Mage",
+        "role_port": "Portraits/Roles/Mage.png",
+        "role_specs": {
+            "Rift Mage": "Portraits/Roles/Mage_Specs/Rift Mage.png",
+            "Necromancer": "Portraits/Roles/Mage_Specs/Necromancer.png",
+            "Knight-Enchanter": "Portraits/Roles/Mage_Specs/Knight-Enchanter.png"
+            
+        }
+    },
+
+    {
+        "id": 1,
+        "role": "Warrior",
+        "sub_rolees": {
+            "Two Handed": "Portraits/Roles/Two Handed.png",
+            "Sword & Shield": "Portraits/Roles/Sword And Shield.png"
+        },
+        "role_specs": {
+            "Champion": "Portraits/Roles/War_Specs/Champion.png",
+            "Reaver": "Portraits/Roles/War_Specs/Reaver.png",
+            "Templar": "Portraits/Roles/War_Specs/Templar.png"
+        }
+    },
+
+    {
+        "id": 2,
+        "role": "Rogue",
+        "sub_rolees": {
+            "Archer": "Portraits/Roles/Archer.png", 
+            "Duel Wield": "Portraits/Roles/Duel Wield.png"
+        },
+        "role_specs": {
+            "Artificer": "Portraits/Roles/Rogue_Specs/Artificer.png",
+            "Assassin": "Portraits/Roles/Rogue_Specs/Assassin.png", 
+            "Tempest": "Portraits/Roles/Rogue_Specs/Tempest.png"
+        }
+    }
+]
