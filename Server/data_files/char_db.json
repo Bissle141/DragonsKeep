@@ -32,7 +32,7 @@
         "f_name": "Cole",
         "l_name": "",
         "gender": "Male",
-        "race": ["Spirit (compassion)", "Demon", "Human"],
+        "race": "Spirit (compassion)",
         "role": "Rogue",
         "spec": "Assassin",
         "like_status": "unliked",
@@ -78,7 +78,7 @@
         "role": "Warrior",
         "spec": "Reaver",
         "like_status": "unliked",
-        "quote": "Also, it's 'THE Iron Bull.' I like having an article at the front. It makes it sound like I'm not even a person, just a mindless weapon, an implement of destruction... That really works for me.",
+        "quote": "You don't need blood magic or demons to change someone's mind. We're a lot more fragile than we'd like to believe.",
         "desc": "Qunari are known across Thedas as the brutal horned giants who descended from the north to nearly conquer the continent. These ruthless followers of a harsh philosophy enforce their will through the Ben-Hassrath: their spies and secret police. One brilliant agent did it all, hunting spies, rebels, and deserters until the day he finally broke. To preserve a valuable asset, his superiors sent him to Orlais to observe and report… and The Iron Bull was born.<br>Today, Bull's Chargers are famous mercenaries, fiercely loyal to the huge Qunari warrior who leads them into battles and taverns with equal enthusiasm. The Iron Bull still sends the Ben-Hassrath reports, but years of living outside Qunari rules have him wondering which identity is really him. Whoever he is, he's more than happy to join the Inquisition and get paid to kill demons.",
         "img_link": "Portraits/Characters/Iron Bull.png"
     },

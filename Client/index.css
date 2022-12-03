@@ -1,18 +1,358 @@
+/* TEXT STYLEING */
+h1{
+    box-sizing: border-box;
+    margin: 10px;
+    color: #E08E45;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 124px;
+    font-family: 'Amita';
+    font-style: normal;
+}
+
+.char-card-header {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+
+    color: #403D39;
+}
+
+body{
+    background: #403D39;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR STYLEING */
+#nav-bar{
+    display: flex;
+    
+    height: 120px;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #312F2D;
+
+    box-shadow: 0px 5px 10px 1px #E08E45;
+}
+
+#search-bar {
+    height: 60px;
+    width:  30vw;
+    min-width: 400px;
+    background: #FFFCF2;
+    border-radius: 10px;
+}
+
+#search-bar::placeholder {
+    color: rgba(0, 0, 0, 0.29);
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;  
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;    
+}
+
+#main-container>h1{
+    text-align: center;
+    width: 90vw;
+    display: flex;  
+    flex: content;
+    justify-content: center;
+    align-self: center;
+}
+
+/* ADD CHARACTER BTN */
+#add-inq-btn{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50px;
+    background: #6B8F71;
+    outline: none;
+    border: none;
+    
+    color: #FFFCF2;
+    font-family: 'Ultra';
+    font-style: normal;
+    font-size: 40px;
+}
+
+#add-inq-btn:hover{
+    background: #516c55;
+}
+
+
+#card-container{
+    flex:content;
+    align-self: center;
+    height: 70vh;
+    width: 90vw;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    background: #FFFCF2;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 175px;
+    margin: 20px;
+    
+    border: 1px solid #E08E45;
+    box-shadow: 0px 0px 20px 1px #E08E45;
+    border-radius: 10px;    
+}
+
+.character-card>.char_port {
+    align-self: center;
+    width: 160px;
+    height: 269px;
+    object-fit: cover;
+}
+
+
 .unliked {
-    background: url("./Portraits/Other/stars/iconmonstr-star-3.svg") no-repeat;
-    height: 40px;
-    width: 40px;
-}
-/* input[type="radio"]{
-    display: none;
-}
-input[type="radio"]:enabled + label{
-        display: fl;
+    background: url("./Portraits/Other/stars/White_star.png") no-repeat transparent;
 }
 
-input[type="radio"]:disabled + label{
+.liked{
+    background: url("./Portraits/Other/stars/Dark_Gold_star.png") no-repeat transparent;
+}
+
+.unliked:hover{
+    background: url("./Portraits/Other/stars/Grey_star.png") no-repeat transparent;
+}
+
+.liked:hover{
+    background: url("./Portraits/Other/stars/Gold_star.png") no-repeat transparent;
+}
+
+.unliked, .liked, .liked:hover, .unliked:hover {
+    background-size: 20px 20px;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    bottom: 20px;
+    left: 25px;
+}
+#sv-info-box input{
+    align-self: center;
+}
+
+#single-view-container, #character-creator-container{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    width: 1080px;
+    height: 768px;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
+    background: #FFFCF2;
+    box-shadow: 0px 0px 50px 25px #000000;
+    border-radius: 10px;
+}
+
+#left-div, #right-div{
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+#left-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+
+    width: 740px;
+    margin: 10px;
+}
+#quote{
+    margin: 10px;
+    width: 100%;
+
+    font-family: 'Amita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+        
+    color: #403D39;
+}
+#desc{
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background: #E08E45;
+    border-radius: 10px;
+
+    width: 700px;
+    height: fit-content;
+    min-height: 440px;
+
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-indent: 30px;
+    
+    color: #000000;
+}   
+
+#right-div{
+    width: fit-content;
+    margin: 10px;
+}
+
+#sv-info-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 10px;
+
+    width: 256px;
+    height: 215px;
+    left: 954px;
+    top: 642px;
+
+    justify-items: center;
+    
+    background: #6B8F71;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#sv-info-box div{
+    flex: content;
+    
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#sv-info-box input{
+    flex: content;
+    margin: 5px;
+    left: 15px;
+    bottom: -5px;
+}
+
+#delete-char-btn {
+    flex: content;
+    position: relative;
+}
+
+#sv-info-box p{
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;    
+}
+
+.sv-char-port{
+    align-self: center;
+    width: 270px;
+    height: 450px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.delete-char-btn{
+    background: url("/Client/Portraits/Other/stars/trashCan.png");
+    background-size: contain;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    height: 30px;
+    width: 30px;
+    
+    right: 5px;
+    bottom: 7px;
+    
+    border: none;
+    filter: invert(0.30);    
+}
+.delete-char-btn:hover{
+    color: rgb(44, 44, 44);
+    filter: none;
+}
+
+.exitBtn {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    margin: 5px;
+    right: 0px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+
+    background: transparent;
+    border: none;       
+
+    color: rgb(131, 131, 131);
+}
+.exitBtn:hover{
+    color: rgb(44, 44, 44);
+
+}
+
+input.disabled{ 
     visibility: hidden;
-    display: none;
-} */
-
-
+}

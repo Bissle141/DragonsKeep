@@ -37,25 +37,32 @@ const createSingleView = (character) => {
     container.setAttribute('id', "single-view-container")
 
     container.innerHTML = `
-    <button id="exit" onClick=exitSingleView()>X</button>
-    <H1 class="sv-title">${f_name + " " + l_name}</H1>
-    <p id="quote">"${quote}" <br>-${f_name}</p>
-    <p id="desc">${desc}</p>
-    <img class="sv-char-port" src="${img_link}" alt="image of ${f_name}">
-    <section id="sv-info-box">
-        <div id="gender"><p class="tag">Gender</p><p>${gender}</p></div>
-        <div id="race"><p class="tag">Race</p><p>${race}</p></div>
-        <div id="class"><p class="tag">Class</p><p>${role}</p></div>
-        <div id="spec"><p class="tag">Specialization:</p><p>${spec}</p></div>
-        <input type="button" class="like-btn-${char_id} ${like_status}" onclick="likeCharacter(${char_id})" alt="Like Button" alt="Star Icon">
-        <button class="delete-char-btn" onClick="deleteCharacter(${char_id})">Delete</button>        
-        </section>`
+    <button class="exitBtn" onClick=exitSingleView()>X</button>
+    <div id="left-div">
+        <H1 class="sv-title">${f_name + " " + l_name}</H1>
+        <p id="quote">"${quote}" -${f_name}</p>
+        <p id="desc" class="first-letter">${desc}</p>
+    </div>
+    <div id="right-div">
+        <img class="sv-char-port" src="${img_link}" alt="image of ${f_name}">
+        <section id="sv-info-box">
+            <div id="gender"><p class="tag">Gender</p><p>${gender}</p></div>
+            <div id="race"><p class="tag">Race</p><p>${race}</p></div>
+            <div id="class"><p class="tag">Class</p><p>${role}</p></div>
+            <div id="spec"><p class="tag">Sub Class:</p><p>${spec}</p></div>
+            <input type="button" class="like-btn-${char_id} ${like_status}" onclick="likeCharacter(${char_id})" alt="Like Button" alt="Star Icon">
+            </section>
+        <button class="delete-char-btn" onClick="deleteCharacter(${char_id})"></button>        
+    </div>
+    `
 }
 
 const openSingleView = (id) => {
     if (document.querySelector("#character-creator-container")) exitCreateCharacter()
     if (document.querySelector("#single-view-container")) exitSingleView()
-    axios.get(`${url}/characters/?char_id=${id}`).then(res => createSingleView(res.data))
+    axios.get(`${url}/characters/?char_id=${id}`).then(res => {
+        // console.log(res.data)
+        createSingleView(res.data)})
     .catch(err => {
         console.log(err)
         alert('something went wrong.')
@@ -126,7 +133,7 @@ const opencharacterCreator = () => {
 
 
     section.innerHTML = `
-    <button onClick=exitCreateCharacter()>X</button>
+    <button class="exitBtn" onClick=exitCreateCharacter()>X</button>
         <form id="create-inq-form" onSubmit="addNewCharacter(event)">
             <H1>Your Inquisitor</H1>
             <div id="name-div" class="creator-opt-div">
