@@ -135,19 +135,20 @@ body{
 
 
 .unliked {
-    background: url("./Portraits/Other/stars/White_star.png") no-repeat transparent;
+    background: url("./Portraits/stars/White_star.png") no-repeat transparent;
+    background: "https://lh3.googleusercontent.com/6QbFGLlyRwHkYfyVqNVWp8tsrMMzToNVsPbD14CZvJ8jVNtF0kEYy0fvHAVPKtyY9C8evou3UsdTaeOcmPSNzP_m8HxcLPx2auQPlJZ98i5PrZFLuPQo8zEsVrKz9RHX_l8emDUhiA=w1920-h1080" transparent;
 }
 
 .liked{
-    background: url("./Portraits/Other/stars/Dark_Gold_star.png") no-repeat transparent;
+    background: url("./Portraits/stars/Dark_Gold_star.png") no-repeat transparent;
 }
 
 .unliked:hover{
-    background: url("./Portraits/Other/stars/Grey_star.png") no-repeat transparent;
+    background: url("./Portraits/stars/Grey_star.png") no-repeat transparent;
 }
 
 .liked:hover{
-    background: url("./Portraits/Other/stars/Gold_star.png") no-repeat transparent;
+    background: url("./Portraits/stars/Gold_star.png") no-repeat transparent;
 }
 
 .unliked, .liked, .liked:hover, .unliked:hover {
@@ -184,7 +185,7 @@ body{
     border-radius: 10px;
 }
 
-#left-div, #right-div{
+.left-div, .right-div{
     display: flex;
     flex: content;
     flex-direction: column;
@@ -194,7 +195,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-#left-div{
+.left-div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -241,7 +242,7 @@ body{
     color: #000000;
 }   
 
-#right-div{
+.right-div{
     width: fit-content;
     margin: 10px;
 }
@@ -311,7 +312,7 @@ body{
 }
 
 .delete-char-btn{
-    background: url("/Client/Portraits/Other/stars/trashCan.png");
+    background: url("/Client/Portraits/stars/trashCan.png");
     background-size: contain;
     position: fixed;
     display: flex;

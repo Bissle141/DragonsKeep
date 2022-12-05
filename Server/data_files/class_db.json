@@ -1,41 +1,41 @@
 [
     {
-        "id": 0,
-        "role": "Mage",
-        "role_port": "Portraits/Roles/Mage.png",
-        "role_specs": {
-            "Rift Mage": "Portraits/Roles/Mage_Specs/Rift Mage.png",
-            "Necromancer": "Portraits/Roles/Mage_Specs/Necromancer.png",
-            "Knight-Enchanter": "Portraits/Roles/Mage_Specs/Knight-Enchanter.png"
-            
-        }
+        "role": "mage",
+        "role_port": "https://lh3.googleusercontent.com/pw/AL9nZEUKt9VIg52nt3qJtvgw9Szjxs4m-IhXy5J6EpXQqwAeG2UpCSZzvIh4LD5itp_LKEOlcGzVT_MvQp0X6dyAP3rmN23zQRQszMJ0PI27pedOX69PDp-QKhlge8LwbdowebJpp0-RZz1V1G6ZBruXpJBW=w300-h600-no?authuser=0"
     },
 
     {
-        "id": 1,
-        "role": "Warrior",
-        "sub_rolees": {
-            "Two Handed": "Portraits/Roles/Two Handed.png",
-            "Sword & Shield": "Portraits/Roles/Sword And Shield.png"
-        },
-        "role_specs": {
-            "Champion": "Portraits/Roles/War_Specs/Champion.png",
-            "Reaver": "Portraits/Roles/War_Specs/Reaver.png",
-            "Templar": "Portraits/Roles/War_Specs/Templar.png"
-        }
+        "role": "sword and shield",
+        "role_port": "https://lh3.googleusercontent.com/pw/AL9nZEWMYh3_8iZgP4hEZjsoeav4DZrPMArU-gzzWZwtFT-GD-uJB1tG7gT-h5LNazgYpY3hWKebxVrQt0hC1TOhY8rhf_A6NsSAUgp9sby3pjVyt9604T98O6hKeh4mMIl2bd2WbBxt6hL2wlnVYmM3uwHL=w300-h600-no?authuser=0"
+    },
+    {
+        "role": "two handed",
+        "role_port": "https://lh3.googleusercontent.com/pw/AL9nZEX5o_Us_AnWeqKuUi1zL1IAJ68zcx5_tDPQ_6vJFMzM87oREnMg0ewqWl4h48qzMthiCrsDe_XV-mzV0LiIj6JazdMds7P4QIjoS5hOpKncUA0DYXshTJfgjlC5JtRkMMhg-AyrKMjVEb39Sh32mLkU=w300-h600-no?authuser=0"
     },
 
     {
-        "id": 2,
-        "role": "Rogue",
-        "sub_rolees": {
-            "Archer": "Portraits/Roles/Archer.png", 
-            "Duel Wield": "Portraits/Roles/Duel Wield.png"
-        },
-        "role_specs": {
-            "Artificer": "Portraits/Roles/Rogue_Specs/Artificer.png",
-            "Assassin": "Portraits/Roles/Rogue_Specs/Assassin.png", 
-            "Tempest": "Portraits/Roles/Rogue_Specs/Tempest.png"
-        }
+        "role": "archer",
+        "role_port": "https://lh3.googleusercontent.com/pw/AL9nZEVqDBRaKs3yEYKyhj7yXv_PIM5ruDUMXsWtNABtGeUqKsrIcPu-4oT8CifTwbp-F-S63SGHpSV3flLnxSpOx_ciU-3GIIT6aWSnYWCax0WZucqg0cr-snwZEtNKkeFn6brH7Ay8v5xzOWJApOcZDtAz=w300-h600-no?authuser=0" 
+    },
+
+    {
+        "role": "duel wield",
+        "role_port": "https://lh3.googleusercontent.com/pw/AL9nZEVmhJUaNCuSuvppljz0coVHPnRhn9a6-AA5aIpXkLwmqg-HcUlIC9ULeI1iO17S4braP1pv4Q8ARSBM95vbrqgCfK-EgKWDRch8Cq9NdeOtMePXyQ8bF8uLYswsed_nE7CmoQcKxLbb4LHy5OKJz-7z=w300-h600-no?authuser=0"
+    },
+
+    {
+        "role": "specs",
+
+        "artificer": "https://lh3.googleusercontent.com/pw/AL9nZEXXVSVe_vnft2ACE_IrFJwSVTeILo2rKg59Phz3Us06l5aXiVOL4y9zjgA4RKoPYKk7V4MnKUzaGFXb5gO_QgQY35sev1AIEMtiyLt6Ht-0lBZAPOk5q59bAQU1-8IoUDdWA-Pj3lNOPkAMHFWf8l_e=s250-no?authuser=0",
+        "assassin": "https://lh3.googleusercontent.com/pw/AL9nZEUDsEmmyeJfMVTiRSdQISXiIR9_OzXL_LYJ_aEutLLVkSEnovq3rNjlcwxgGmlDvBVdZnWCCOIWULwaaeMRdIXFrwtHYOhsixgRuap6NHuwMyO41eLaeY_Mea6oD86uB1kbMzKxmmAR1fCxHeR41iHa=s250-no?authuser=0", 
+        "tempest": "https://lh3.googleusercontent.com/pw/AL9nZEW1qOiOfeVx_Z9Kojk6oBpTL7c6UUht6qtJqATNGHaLsZ_byTm-mBBvIf-X807JfZ4ocVZoCxwL94srhyaAWZ6oKmATcRduETC9aGZLdqBiRBnl47Of7rNadCxbHeTUbyO512Y2jbjrWeR0Nhgxn2X-=s250-no?authuser=0",
+
+        "champion": "https://lh3.googleusercontent.com/pw/AL9nZEW7mvHNYw8uyHKPmiGGcM2Zv2R8GSclxTCqW1pGsYyNRXUQN6fS7jl7gG5CWcVZ5HY5I1mBs6p_1am1QswdC4ORXmPkWUE2wfekzE0MsTW8OorDXsmtGabLTDY-KKZkwBG2i_uTj7V4rEdDkDxNEyYl=s250-no?authuser=0",
+        "reaver": "https://lh3.googleusercontent.com/pw/AL9nZEXzQElJyIAmQC3dKnYBduuD6cNv9jzTxvJpfw2Ou4koT7DVFzstfL3yba0hbVPohwCxAqze2PKhlyrUh1g-k7CaQwI7pz3ywdJ3OgI7Bpk_rh7xkrA-QJcXfs_U47-Mp4uedVhhCcLFqor7j8FnQLQj=s250-no?authuser=0",
+        "templar": "https://lh3.googleusercontent.com/pw/AL9nZEXaIIiiWKN6MMruJBqxDH53BzZhZoN2d_-7imLMpn3ZyxGF62p2uhDfVXKxcEoFWa0wBtR0exsQbIGpdKHqkfKdcVHPURFwO9EG6zE-UrlGZLNHLVFrAMPOLwHUxyPkQyjPzlHt8Ccw4bBlGpwS9-MF=s250-no?authuser=0",
+        
+        "rift_mage": "https://lh3.googleusercontent.com/pw/AL9nZEUiVtjTCxlPj848cFO9TydcGA2SDbzaULTaXr3i45yi_NtoH606aj8dzgMRRQHygGhNE4StFUiWJUvepldPEt9ZE3Sw_x59UEUxdPH6vGgplspMUDT_sHqG7JlX1UzrHMY4bru1x9I__IgkMZMI8IH3=s250-no?authuser=0",
+        "necromancer": "https://lh3.googleusercontent.com/pw/AL9nZEWToZ00IhSb8cNqNIohpvdwPbWAWdbkvianqfz8fYyxA51KTz9jut-fbb_VqVP9K7_2P76O4IbYffnipuHSCB-ortx6NgVeTf8SdcDGB318My1-ukkR9_6mWboTwAX4_zILX_9GLylA8hryQ7yWUti1=s250-no?authuser=0",
+        "knight_enchanter": "https://lh3.googleusercontent.com/pw/AL9nZEVLtvcoF0UHLzNiiW_o-EOmiuRFz7brq94ldne_vvQDqze5wL2_of-3zpdbsOnItm4TPCWm6krR3lE9f0IeWyom_PCfpNF0xueOnlYQJ8Q4nm-ImhtP_Fc8U6goicaEAux0oEczptIbwB8TawG6SiJp=s250-no?authuser=0"
     }
 ]

@@ -24,13 +24,19 @@ const getAllCharacters = (req, res) => {
 
 //gets classes DB
 const getAllClasses = (req, res) => {
-    res.status(200).send(classesDb)
+    // console.log(req.query.role)
+    const role = req.query.role
+
+    const index = classesDb.findIndex((opt)=> opt.role === role.toLowerCase())
+    // console.log(index)
+
+    res.status(200).send(classesDb[index])
 }
 
 //gets from inquisitor DB
 const getInquisiorDb = (req, res) => {
     const id = req.params.id
-    console.log(id)
+    // console.log(id)
 
     const index = inquisitorDb.findIndex((opt)=> opt.id === id)
     // console.log(inquisitorDb[index].desc)
