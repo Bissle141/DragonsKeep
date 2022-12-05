@@ -1,22 +1,18 @@
 /* TEXT STYLEING */
 h1{
-    box-sizing: border-box;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #E08E45;
-    font-weight: 700;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 124px;
-    font-family: 'Amita';
-    font-style: normal;
+    font-family: 'Uncial Antiqua';
 }
 
-.char-card-header {
-    font-family: 'Alegreya';
-    font-style: normal;
+.char-card-header{
+    font-family: 'Cinzel';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 22px;
-    align-items: center;
     text-align: center;
 
     color: #403D39;
@@ -49,6 +45,10 @@ body{
     min-width: 400px;
     background: #FFFCF2;
     border-radius: 10px;
+    
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-size: 20px;
 }
 
 #search-bar::placeholder {
@@ -194,6 +194,8 @@ body{
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    height: 100%;
 }
 .left-div{
     display: flex;
@@ -202,18 +204,16 @@ body{
     align-content: flex-start;
     
 
-    width: 740px;
-    margin: 10px;
+    width: 70%;
 }
 #quote{
     margin: 10px;
-    width: 100%;
+    width: 90%;
 
-    font-family: 'Amita';
-    font-style: normal;
+    font-family: 'Cinzel';
     font-weight: 700;
     font-size: 20px;
-    line-height: 39px;
+    line-height: 22px;
     text-align: center;
         
     color: #403D39;
@@ -232,9 +232,8 @@ body{
     height: fit-content;
     min-height: 440px;
 
-    font-family: 'Alegreya';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'EB Garamond';
+    font-weight: 500;
     font-size: 20px;
     line-height: 200%;
     text-indent: 30px;
@@ -244,7 +243,11 @@ body{
 
 .right-div{
     width: fit-content;
-    margin: 10px;
+    position: relative; 
+    
+    transform: translateY(50%);
+    bottom: 50%;
+    right: 20px;
 }
 
 #sv-info-box{
@@ -252,7 +255,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin: 10px;
+    /* margin: 10px; */
 
     width: 256px;
     height: 215px;
@@ -296,9 +299,8 @@ body{
     display: flex;
     align-items: center;
 
-    font-family: 'Alegreya';
+    font-family: 'EB Garamond';
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 24px;    
 }
@@ -306,9 +308,8 @@ body{
 .sv-char-port{
     align-self: center;
     width: 270px;
-    height: 450px;
-    object-fit: cover;
-    margin: 10px;
+    height: 490px;
+    object-fit: contain;
 }
 
 .delete-char-btn{
@@ -322,8 +323,8 @@ body{
     height: 30px;
     width: 30px;
     
-    right: 5px;
-    bottom: 7px;
+    right: 0;
+    bottom: -30px;
     
     border: none;
     filter: invert(0.30);    
@@ -334,11 +335,13 @@ body{
 }
 
 .exitBtn {
+    z-index: 10;
     width: 30px;
     height: 30px;
     position: fixed;
     margin: 5px;
-    right: 0px;
+    right: 10px;
+    top: 5px;
 
     font-weight: 400;
     font-size: 32px;
@@ -356,4 +359,130 @@ body{
 
 input.disabled{ 
     visibility: hidden;
+}
+
+.CC-left-div, .CC-right-div{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.CC-left-div{
+    width: 65%;
+}
+
+.CC-right-div{
+    width: 35%;    
+}
+
+#char-creator-gender-race-display {
+    background: url("./Portraits/Sigil.png") no-repeat transparent;
+    background-position-x: center;
+    background-size: contain;
+
+    position: absolute;
+    top: 7%;
+    right: 2%;
+
+    height: 520px;
+    width: 260px;
+}
+#char-creator-role-display{
+    background: url("./Portraits/Dragon.png") no-repeat transparent;
+    background-position-x: center;
+    background-size: contain;
+    position: absolute;
+    top: 45%;
+    right: 15%;
+
+    height: 360px;
+    width: 180px;
+}
+
+
+#create-inq-form{
+    display: flex;
+    width: inherit;
+    flex: content;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#create-inq-form input[type="text"]{
+    background-color: none;
+    border-radius: 10;
+
+    box-sizing: border-box;
+
+    width: 300px;
+    height: 60px;
+
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-size: 20px;
+
+    border: 5px solid #E08E45;
+    border-radius: 10px;
+}
+
+.group-label{
+    text-align: center;
+    align-content: center;
+
+    font-family: 'EB Garamond';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.creator-opt-div{
+    width: 95%;
+    height: fit-content;
+    background-color: #E08E45;
+    border-radius: 10px;
+    padding: 10px;
+
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+
+    font-family: 'EB Garamond';
+    font-size: 20px;
+}
+
+label.inq-opt-selectors{
+    padding: 5px;
+}
+.inq-opt-selectors:checked+label{
+    color: #FFFCF2;
+    font-weight: 500;
+
+}
+
+.inq-opt-selectors:disabled + label{
+    display: none;
+}
+
+input.inq-opt-selectors{
+    display: none;
+}
+
+button[type="submit"]{
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+
+    background-color: #6B8F71;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 100px;
+
+    font-family: 'EB Garamond';
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFCF2;
+
 }

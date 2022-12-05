@@ -40,7 +40,7 @@ const createSingleView = (character) => {
     <button class="exitBtn" onClick=exitSingleView()>X</button>
     <div class="left-div">
         <H1 class="sv-title">${f_name + " " + l_name}</H1>
-        <p id="quote">"${quote}" -${f_name}</p>
+        <p id="quote">"${quote}"</p>
         <p id="desc" class="first-letter">${desc}</p>
     </div>
     <div class="right-div">
@@ -134,103 +134,103 @@ const opencharacterCreator = () => {
 
     section.innerHTML = `
     <button class="exitBtn" onClick=exitCreateCharacter()>X</button>
+    <div class="CC-left-div">
         <form id="create-inq-form" onSubmit="addNewCharacter(event)">
-            <div class="left-div">
-                <H1>Your Inquisitor</H1>
-                <div id="name-div" class="creator-opt-div">
-                    <input type="text" id="inq-f-name" name="f-name" placeholder="First Name" required>
-                    <input type="text" id="inq-l-name" name="l-name" placeholder="Last Name">
-                </div>
-
-                <div id="gender-div" class="creator-opt-div">
-                    <label for="gender">Gender:</label> 
-                    <label class="inq-opt-selectors" for="female">Female</label>
-                    <input class="inq-opt-selectors" id="female" type="radio" name="gender" value="F" required>
-                    
-                    <label class="inq-opt-selectors" for="male">Male</label>
-                    <input class="inq-opt-selectors" id="male" type="radio" name="gender" value="M">
-                </div>
-                
-                <div id="race-div" class="creator-opt-div">
-                    <label for="race">Race:</label>
-
-                    <label class="inq-opt-selectors" for="dwarf">Dwarf</label>
-                    <input class="inq-opt-selectors" id="dwarf" type="radio" name="race" value="Dwarf" required>
-                    
-                    <label class="inq-opt-selectors" for="elf">Elf</label>
-                    <input class="inq-opt-selectors" id="elf" type="radio" name="race" value="Elf" >
-                    
-                    <label class="inq-opt-selectors" for="human">Human</label>
-                    <input class="inq-opt-selectors" id="human" type="radio" name="race" value="Human" >
-                    
-                    <label class="inq-opt-selectors" for="qunari">Qunari</label>
-                    <input class="inq-opt-selectors" id="qunari" type="radio" name="race" value="Qunari" >
-                </div>
-                
-                <div id="role-div" class="creator-opt-div">
-                    <label for="role">Class:</label>
-                    
-                    <label class="inq-opt-selectors" for="mage">Mage</label>
-                    <input class="inq-opt-selectors" id="mage" type="radio" name="role" value="Mage" required>
-                    
-                    <label class="inq-opt-selectors" for="archer">Archer</label>
-                    <input class="inq-opt-selectors" id="archer" type="radio" name="role" value="Archer" >
-                    
-                    <label class="inq-opt-selectors" for="duel-wielder">Duel Wielder</label>
-                    <input class="inq-opt-selectors" id="duel-wielder" type="radio" name="role" value="Duel Wield" >
-                    
-                    <label class="inq-opt-selectors" for="two-handed">Two Handed</label>
-                    <input class="inq-opt-selectors" id="two-handed" type="radio" name="role" value="Two Handed" >
-                    
-                    <label class="inq-opt-selectors" for="sword-and-shield">Sword & Shield</label>
-                    <input class="inq-opt-selectors" id="sword-and-shield" type="radio" name="role" value="Sword And Shield" >
-                    
-                </div>
-                
-                <div id="spec-div" class="creator-opt-div">
-                    <label for="spec">Specialization:</label>
-                    
-                    <label class="inq-opt-selectors" for="rift-mage">Rift Mage</label>
-                    <input class="inq-opt-selectors" id="rift-mage" type="radio" name="spec" value="Rift_Mage" required>
-                    <label class="inq-opt-selectors" for="necromancer">Necromancer</label>
-                    <input class="inq-opt-selectors" id="necromancer" type="radio" name="spec" value="Necromancer" >
-                    <label for="knight-enchanter">Knight-Enchanter</label>
-                    <input class="inq-opt-selectors" id="knight-enchanter" type="radio" name="spec" value="Knight_Enchanter" >
-                    
-                    <label class="inq-opt-selectors" for="assassin">Assassin</label>
-                    <input class="inq-opt-selectors" id="assassin" type="radio" name="spec" value="Assassin" >
-                    <label class="inq-opt-selectors" for="artificer">Artificer</label>
-                    <input class="inq-opt-selectors" id="artificer" type="radio" name="spec" value="Artificer" >
-                    <label class="inq-opt-selectors" for="tempest">Tempest</label>
-                    <input class="inq-opt-selectors" id="tempest" type="radio" name="spec" value="Tempest" >
-                    
-                    <label class="inq-opt-selectors" for="templar">Templar</label>
-                    <input class="inq-opt-selectors" id="templar" type="radio" name="spec" value="Templar" >
-                    <label class="inq-opt-selectors" for="reaver">Reaver</label>
-                    <input class="inq-opt-selectors" id="reaver" type="radio" name="spec" value="Reaver" >
-                    <label class="inq-opt-selectors" for="champion">Champion</label>
-                    <input class="inq-opt-selectors" id="champion" type="radio" name="spec" value="Champion" >
-                </div>
-
-                <div id="submit-div">
-                    <button type="submit">Create</button>
-                </div>
+            <H1>Your Inquisitor</H1>
+            <div id="name-div">
+                <input type="text" id="inq-f-name" name="f-name" placeholder="First Name" maxlength="15" required>
+                <input type="text" id="inq-l-name" name="l-name" placeholder="Last Name" maxlength="15">
             </div>
 
-            <div class="right-div">
-                <img id="char-creator-gender-race-display" src="./Portraits/Sigil.png" alt="responsive display for choosen class and race">
-                <img id="char-creator-role-display" src="./Portraits/Dragon.png" alt="responsive display for choosen class and race">
-                <img id="char-creator-spec-display" src="https://lh3.googleusercontent.com/pw/AL9nZEWO_13ehS4swVGGhyJEjdyYN2CcipM3rHo4rrTNemXo5H9BvIP-p3HDX7FkC6ykXY6MB0y73haAwBGTiBIR_xJL033z16V2C54DZtZtcueqk_ZiUm-2CQXD3ls5Hp6889sy6LjhXOJl5OmDNU159Neg=s240-no?authuser=0" alt="responsive icon for chosen specialization.">
+            <label class="group-label" for="gender">Gender<br></label> 
+            <div id="gender-div" class="creator-opt-div">
+                <input class="inq-opt-selectors" id="female" type="radio" name="gender" value="F" required>
+                <label class="inq-opt-selectors" for="female">Female</label>
+                
+                <input class="inq-opt-selectors" id="male" type="radio" name="gender" value="M">
+                <label class="inq-opt-selectors" for="male">Male</label>
+            </div>
+            
+            <label class="group-label" for="race">Race<br></label>
+            <div id="race-div" class="creator-opt-div">
+
+                <input class="inq-opt-selectors" id="dwarf" type="radio" name="race" value="Dwarf" required>
+                <label class="inq-opt-selectors" for="dwarf">Dwarf</label>
+                
+                <input class="inq-opt-selectors" id="elf" type="radio" name="race" value="Elf" >
+                <label class="inq-opt-selectors" for="elf">Elf</label>
+                
+                <input class="inq-opt-selectors" id="human" type="radio" name="race" value="Human" >
+                <label class="inq-opt-selectors" for="human">Human</label>
+                
+                <input class="inq-opt-selectors" id="qunari" type="radio" name="race" value="Qunari" >
+                <label class="inq-opt-selectors" for="qunari">Qunari</label>
+            </div>
+            
+            <label class="group-label" for="role">Class<br></label>
+            <div id="role-div" class="creator-opt-div">
+                
+                <input class="inq-opt-selectors" id="mage" type="radio" name="role" value="Mage" required>
+                <label class="inq-opt-selectors" for="mage">Mage</label>
+                
+                <input class="inq-opt-selectors" id="archer" type="radio" name="role" value="Archer" >
+                <label class="inq-opt-selectors" for="archer">Archer</label>
+                
+                <input class="inq-opt-selectors" id="duel-wielder" type="radio" name="role" value="Duel Wield" >
+                <label class="inq-opt-selectors" for="duel-wielder">Duel Wielder</label>
+                
+                <input class="inq-opt-selectors" id="two-handed" type="radio" name="role" value="Two Handed" >
+                <label class="inq-opt-selectors" for="two-handed">Two Handed</label>
+                
+                <input class="inq-opt-selectors" id="sword-and-shield" type="radio" name="role" value="Sword And Shield" >
+                <label class="inq-opt-selectors" for="sword-and-shield">Sword & Shield</label>
+                
+            </div>
+            
+            <label class="group-label" for="spec">Specialization<br></label>
+            <div id="spec-div" class="creator-opt-div">
+                
+                <input class="inq-opt-selectors" id="rift-mage" type="radio" name="spec" value="Rift_Mage" required>
+                <label class="inq-opt-selectors" for="rift-mage">Rift Mage</label>
+                <input class="inq-opt-selectors" id="necromancer" type="radio" name="spec" value="Necromancer" >
+                <label class="inq-opt-selectors" for="necromancer">Necromancer</label>
+                <input class="inq-opt-selectors" id="knight-enchanter" type="radio" name="spec" value="Knight_Enchanter" >
+                <label class="inq-opt-selectors" for="knight-enchanter">Knight-Enchanter</label>
+                
+                <input class="inq-opt-selectors" id="assassin" type="radio" name="spec" value="Assassin" >
+                <label class="inq-opt-selectors" for="assassin">Assassin</label>
+                <input class="inq-opt-selectors" id="artificer" type="radio" name="spec" value="Artificer" >
+                <label class="inq-opt-selectors" for="artificer">Artificer</label>
+                <input class="inq-opt-selectors" id="tempest" type="radio" name="spec" value="Tempest" >
+                <label class="inq-opt-selectors" for="tempest">Tempest</label>
+                
+                <input class="inq-opt-selectors" id="templar" type="radio" name="spec" value="Templar" >
+                <label class="inq-opt-selectors" for="templar">Templar</label>
+                <input class="inq-opt-selectors" id="reaver" type="radio" name="spec" value="Reaver" >
+                <label class="inq-opt-selectors" for="reaver">Reaver</label>
+                <input class="inq-opt-selectors" id="champion" type="radio" name="spec" value="Champion" >
+                <label class="inq-opt-selectors" for="champion">Champion</label>
             </div>
 
+            <div id="submit-div">
+                <button type="submit">Create</button>
+            </div>
         </form>
+    </div>
+
+    <div class="CC-right-div">
+        
+        <div id="char-creator-gender-race-display" class="gen-race-unchecked" ></div>
+        <div id="char-creator-role-display" class="role-unchecked"></div>
+    </div>
+
     `
     const options = document.querySelectorAll(".inq-opt-selectors")
     options.forEach(option => option.addEventListener('click', disabler))
     options.forEach(option => option.addEventListener('click', updater))
 }
 
-const disabler = (event) => {
+const disabler = () => {
     //DISABLE BTNS SECTION
     const dwarfBtn = document.getElementById('dwarf')
     const mageBtn = document.getElementById('mage')
@@ -340,28 +340,16 @@ const disabler = (event) => {
 const updater = (event) => {
     let genderRaceDisplay = document.querySelector("#char-creator-gender-race-display")
     let roleDisplay = document.querySelector("#char-creator-role-display")
-    let specDisplay = document.querySelector("#char-creator-spec-display")
-
-    let gender = document.querySelector('input[name="gender"]:checked')
-    if(gender != null) console.log("Gender: " + gender.value)
-    
-    let race = document.querySelector('input[name="race"]:checked')
-    if(race != null) console.log("Race: " + race.value)
-    
-    let role = document.querySelector('input[name="role"]:checked')
-    if(role != null) console.log("Role: " + role.value)
-    
-    let spec = document.querySelector('input[name="spec"]:checked')
-    if(spec != null) console.log("Spec: " + spec.value)
 
     let selectedGender = null
     let genOpt = document.querySelectorAll('input[name="gender"]')
     genOpt.forEach(opt=> {
         if(opt.checked) {
             selectedGender = opt.value.toLowerCase()
+            console.log(selectedGender)
         }
     })
-    
+
     let selectedRace = null
     let raceOpt = document.querySelectorAll('input[name="race"]')
     raceOpt.forEach(opt=> {
@@ -369,7 +357,7 @@ const updater = (event) => {
             selectedRace = opt.value.toLowerCase()
         }
     })
-    
+        
     let selectedRole = null
     let roleOpt = document.querySelectorAll('input[name="role"]')
     roleOpt.forEach(opt=> {
@@ -377,51 +365,45 @@ const updater = (event) => {
             selectedRole = opt.value.toLowerCase()
         }
     })
-    
-    let selectedSpec = null
-    let specOpt = document.querySelectorAll('input[name="spec"]')
-    specOpt.forEach(opt=> {
-        if(opt.checked) {
-            selectedSpec = opt.value.toLowerCase()
-        }
-    })
 
-    if(selectedGender === null && selectedRace === null) genderRaceDisplay.setAttribute("src", "./Portraits/Sigil.png")
-    if(selectedRole === null) roleDisplay.setAttribute("src", "./Portraits/Dragon.png")
-    if(selectedSpec === null) specDisplay.setAttribute("src", "https://lh3.googleusercontent.com/pw/AL9nZEWO_13ehS4swVGGhyJEjdyYN2CcipM3rHo4rrTNemXo5H9BvIP-p3HDX7FkC6ykXY6MB0y73haAwBGTiBIR_xJL033z16V2C54DZtZtcueqk_ZiUm-2CQXD3ls5Hp6889sy6LjhXOJl5OmDNU159Neg=s240-no?authuser=0")
 
     if(selectedGender != null && selectedRace != null) {
         axios.get(`${url}/inquisitorInfo/${selectedRace}_inq`)
         .then(res => {
-            selectedGender === "m" ? genderRaceDisplay.setAttribute("src", res.data.m_link) : genderRaceDisplay.setAttribute("src", res.data.f_link)
+            selectedGender === "m" ? 
+            genderRaceDisplay.style = `background: url("${res.data.m_link}") no-repeat transparent; background-position-x: center; background-size: contain;` : 
+            genderRaceDisplay.style = `background: url("${res.data.f_link}") no-repeat transparent; background-position-x: center; background-size: contain;`
         })
 
     } else if (selectedGender != null && selectedRace === null) {
         axios.get(`${url}/inquisitorInfo/human_inq`)
         .then(res => {
-            selectedGender === "m" ? genderRaceDisplay.setAttribute("src", res.data.m_link) : genderRaceDisplay.setAttribute("src", res.data.f_link)
+            selectedGender === "m" ? 
+            genderRaceDisplay.style = `background: url("${res.data.m_link}") no-repeat transparent; background-position-x: center; background-size: contain;` :
+            genderRaceDisplay.style= `background: url("${res.data.f_link}") no-repeat transparent; background-position-x: center; background-size: contain;`
+            
         })
     } else if (selectedGender === null && selectedRace != null) {
+        console.log("race " + selectedRace)
+        console.log("role " +selectedRole)
+        if (selectedRace === "dwarf") {
+            if(selectedRole  == null) {
+                roleDisplay.style = 'url("./Portraits/Dragon.png") no-repeat transparent;'
+            }
+        }
+
         axios.get(`${url}/inquisitorInfo/${selectedRace}_inq`)
         .then(res => {
-            genderRaceDisplay.setAttribute("src", res.data.f_link)
+            genderRaceDisplay.style = `background: url("${res.data.f_link}") no-repeat transparent; background-position-x: center; background-size: contain;`
         })
     }
 
     if(selectedRole != null) {
         axios.get(`${url}/classes?role=${selectedRole}`)
         .then (res => {
-            roleDisplay.setAttribute("src", res.data.role_port)
+            roleDisplay.style = `background: url("${res.data.role_port}") no-repeat transparent; background-position-x: center; background-size: contain;`
         })
     }
-    
-    if(selectedSpec != null) {
-        axios.get(`${url}/classes?role=specs`)
-        .then(res => {
-            specDisplay.setAttribute("src", res.data[selectedSpec])
-        })
-    }
-    
 }
 
 const addNewCharacter = (event) => {
