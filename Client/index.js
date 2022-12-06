@@ -1,5 +1,6 @@
 const url = "http://localhost:4000"
 
+window.scrollTo(0,0)
 
 const createCharCard = () => {
     const mainContainer = document.querySelector("#main-container")
@@ -73,13 +74,13 @@ const openSingleView = (id) => {
         alert('something went wrong.')
     })
 
-    document.body.style = 'overflow-y: hidden;'
+    document.body.style.overflowY = 'hidden;'
     window.scrollTo(0,0)
 }
 
 const exitSingleView = () => {
     document.querySelector("#single-view-container").remove()
-    document.body.style = 'overflow-y: visible;'
+    document.body.style.overflowY = 'visible;'
 }
 
 const searchCharacters = (event) => {
@@ -132,8 +133,7 @@ const deleteCharacter = (id) => {
 }
 
 const opencharacterCreator = () => {
-    document.body.style = 'overflow-y: hidden;'
-    window.scrollTo(0,0)
+    document.body.style.overflowY = 'hidden;'
 
     if (document.querySelector("#character-creator-container")) exitCreateCharacter()
     if (document.querySelector("#single-view-container")) exitSingleView()
@@ -152,7 +152,7 @@ const opencharacterCreator = () => {
                 <H1>Your Inquisitor</H1>
                 <div id="name-div">
                     <input type="text" id="inq-f-name" name="f-name" placeholder="First Name" maxlength="15" required>
-                    <input type="text" id="inq-l-name" name="l-name" placeholder="Last Name" maxlength="15">
+                    <input type="text" id="inq-l-name" name="l-name" placeholder="Last Name (optional)" maxlength="15">
                 </div>
 
                 <label class="group-label" for="gender">Gender<br></label> 
@@ -203,7 +203,7 @@ const opencharacterCreator = () => {
                 <label class="group-label" for="spec">Specialization<br></label>
                 <div id="spec-div" class="creator-opt-div">
                     
-                    <input class="inq-opt-selectors" id="rift-mage" type="radio" name="spec" value="Rift_Mage" required>
+                    <input class="inq-opt-selectors" id="rift-mage" type="radio" name="spec" value="Rift Mage" required>
                     <label class="inq-opt-selectors" for="rift-mage">Rift Mage</label>
                     <input class="inq-opt-selectors" id="necromancer" type="radio" name="spec" value="Necromancer" >
                     <label class="inq-opt-selectors" for="necromancer">Necromancer</label>
@@ -466,11 +466,20 @@ const addNewCharacter = (event) => {
     })
 }
 
-const exitCreateCharacter = () => {
-    document.querySelector("#character-creator-container").remove()
-    document.body.style = 'overflow-y: visible;'
+const hideLoadScn = () => {
+    window.scrollTo(0, 0)
+    let loadScn = document.querySelector(".loading-screen") 
+    loadScn.disabled = true
+    loadScn.classList.add("invisible")
+    document.body.style = 'visibility: visible; overflow-y: visible;'
 }
 
+const exitCreateCharacter = () => {
+    document.querySelector("#character-creator-container").remove()
+    document.body.style.overflowY = 'visible;'
+}
+
+document.querySelector(".loading-screen").addEventListener("click", hideLoadScn)
 document.querySelector("#add-inq-btn").addEventListener("click", opencharacterCreator)
 document.querySelector("#search-form").addEventListener("submit", searchCharacters)
 createCharCard()

@@ -19,12 +19,73 @@ h1{
 }
 
 body{
+    visibility: hidden;
     background: #403D39;
     justify-content: center;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
 
+.loading-screen{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    transition-delay: 100ms;
+    
+    background-color: #403d39;
+}
+
+.invisible{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: -25%;
+}
+
+
+#logo{
+    align-self: center;
+    height: 20vh;
+    width: 20vh;
+    background-color: #516c55;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+#logo img{
+    height: 15vh;
+    padding: 20px;
+}
+
+#click-prompt{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    color: #838383;
+
+    font-family: "EB Garamond";
+    font-size: 26px;
+    padding: 10px;
 }
 
 /* NAVBAR STYLEING */
@@ -53,6 +114,8 @@ body{
     text-align: center;
     font-family: 'EB Garamond';
     font-size: 20px;
+
+    outline: none;
 }
 
 #search-bar::placeholder {
@@ -428,6 +491,8 @@ input.disabled{
 }
 
 #create-inq-form input[type="text"]{
+    outline: none;
+
     background-color: none;
     border-radius: 10;
 
