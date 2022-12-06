@@ -23,14 +23,18 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+
 }
 
 /* NAVBAR STYLEING */
 #nav-bar{
     display: flex;
     
+    align-self: center;
+    top: 0;
     height: 120px;
-    width: 100%;
+    width: 100vw;
 
     align-items: center;
     justify-content: center;
@@ -81,8 +85,8 @@ body{
     position: fixed;
     height: 50px;
     width: 50px;
-    right: 10px;
-    bottom: 10px;
+    right: 20px;
+    bottom: 20px;
     border-radius: 50px;
     background: #6B8F71;
     outline: none;
@@ -135,20 +139,20 @@ body{
 
 
 .unliked {
-    background: url("./Portraits/stars/White_star.png") no-repeat transparent;
+    background: url("../Portraits/stars/White_star.png") no-repeat transparent;
     background: "https://lh3.googleusercontent.com/6QbFGLlyRwHkYfyVqNVWp8tsrMMzToNVsPbD14CZvJ8jVNtF0kEYy0fvHAVPKtyY9C8evou3UsdTaeOcmPSNzP_m8HxcLPx2auQPlJZ98i5PrZFLuPQo8zEsVrKz9RHX_l8emDUhiA=w1920-h1080" transparent;
 }
 
 .liked{
-    background: url("./Portraits/stars/Dark_Gold_star.png") no-repeat transparent;
+    background: url("../Portraits/stars/Gold_star.png") no-repeat transparent;
 }
 
 .unliked:hover{
-    background: url("./Portraits/stars/Grey_star.png") no-repeat transparent;
+    background: url("../Portraits/stars/Grey_star.png") no-repeat transparent;
 }
 
 .liked:hover{
-    background: url("./Portraits/stars/Gold_star.png") no-repeat transparent;
+    background: url("../Portraits/stars/Dark_Gold_star.png") no-repeat transparent;
 }
 
 .unliked, .liked, .liked:hover, .unliked:hover {
@@ -183,6 +187,18 @@ body{
     background: #FFFCF2;
     box-shadow: 0px 0px 50px 25px #000000;
     border-radius: 10px;
+
+    animation: popup-animation 600ms backwards ;
+    /* animation: popup-animation 1s ; */
+}
+
+@keyframes popup-animation {
+    0%{
+        top: 45%;
+        opacity: 75%;
+    }
+
+    
 }
 
 .left-div, .right-div{
@@ -313,7 +329,7 @@ body{
 }
 
 .delete-char-btn{
-    background: url("/Client/Portraits/stars/trashCan.png");
+    background: url("../Portraits/stars/trashCan.png");
     background-size: contain;
     position: fixed;
     display: flex;
@@ -376,7 +392,7 @@ input.disabled{
 }
 
 #char-creator-gender-race-display {
-    background: url("./Portraits/Sigil.png") no-repeat transparent;
+    background: url("../Portraits/Sigil.png") no-repeat transparent;
     background-position-x: center;
     background-size: contain;
 
@@ -388,7 +404,7 @@ input.disabled{
     width: 260px;
 }
 #char-creator-role-display{
-    background: url("./Portraits/Dragon.png") no-repeat transparent;
+    background: url("../Portraits/Dragon.png") no-repeat transparent;
     background-position-x: center;
     background-size: contain;
     position: absolute;

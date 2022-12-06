@@ -2,7 +2,7 @@ const charactersDb = require("./data_files/char_db.json")
 const inquisitorDb = require("./data_files/inq_db.json")
 const classesDb = require("./data_files/class_db.json")
 
-let globalId = 13
+let globalId = 17
 
 
 //Gets whole character DB

@@ -176,9 +176,66 @@
         "role": "Mage",
         "spec": "Shapeshifter",
         "like_status": "unliked",
-        "quote": "Mankind blunders through the world, crushing what it does not understand; elves, dragons, magic...the list is endless. We must stem the tide, or be left with nothing more than the mundane. This I know to be true.",
+        "quote": "You look upon the world around you and you think you know it well. I have smelled it as a wolf, listened as a cat, prowled shadows that you never dreamed existed.",
         "desc": "Whether the dark-haired sorceress seeks to influence the Imperial throne, or harbors more sinister motives, no-one knows for certain. This Witch of the Wilds arrived in Orlais rather suddenly three years ago as the newly-appointed “arcane advisor” to Empress Celene. In this role, Morrigan presents a source of information unfiltered by religious dogma, and satisfies Celene's life-long curiosity about magic. However, whispers carry concern of Morrigan having Celene wrapped around her finger, teaching the Empress forbidden, dark arts in secret.",
         "img_link": "https://lh3.googleusercontent.com/pw/AL9nZEWPanRdxTlReRSSIbuPvO2i3VpkPxlGOiaE3P04DkfMMrA59W2icFeG_JvtCyvDBo2rPvF6M7VRSWGTTysbp4A9W45xOIyTmh37O7qLaCG-J-Z8EtcQRGYAh2p0VW51NwAs1VBgdTMaoLda4zvUh5bp=w384-h768-no?authuser=0"
+    },
+
+    {
+        "char_id": 13,
+        "f_name": "Corypheus",
+        "l_name": "",
+        "gender": "Male",
+        "race": "Darkspawn",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "Beg that I succeed, for I have seen the throne of the gods, and it was empty.",
+        "desc": "Corypheus was once a human Magister by the name of Sethius Amladaris. He was the High Priest of Dumat and was also one of the Magisters Sidereal, the group of seven high priests of the Old Gods within the Magisterium. House Amladaris was considered mediocre, Sethius middling, but he believed himself deserving of more. According to one of his slaves, whose words were somehow preserved in the Fade, Sethius was never a cruel man, but the weakening of the temples and the loss of his followers had brought fear into his heart. With the other Magisters Sidereal, he discussed ways to return the people of Tevinter to the ways of the Old Gods.",
+        "img_link": "https://lh3.googleusercontent.com/pw/AL9nZEUBInVWPHp--bnebEtLXcx4qBlzLH0THCaqEdqjRx3pYOPhkfErv7qq_e8mwnVZVaCOXBN8QSrVn3wznVm2gbET4haoH-bij_eXajNx1UH8gfWfrwoDy2mpViWyyi8LDDqig4Pst9tfhNiuQQoHreDD=w384-h768-no?authuser=0"
+    },
+
+    {
+        "char_id": 14,
+        "f_name": "Raleigh",
+        "l_name": "Samson",
+        "gender": "Male",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "Templars have always been used. How many were left to rot, like I was, after the Chantry burned away their minds?",
+        "desc": "In the aftermath of the incident at the Gallows and the collapse of the Kirkwall Circle of Magi, Samson rescued his friend Maddox, the very mage who got Samson discharged from the Templars for passing messages on behalf of him and his lover and had become a Tranquil. With the Mage-Templar War wreaking havoc across Thedas, Samson was able to rally some of the floundering Templar Order and was made their general. Samson had begun serving Corypheus and introduced his Red Templar Order to the red lyrium he supplied. Samson inspired his fellow Red Templars to master the red lyrium with the sole purpose of overthrowing the Chantry and take their revenge for controlling them by lyrium addiction and using them for their dirty work.",
+        "img_link": "https://lh3.googleusercontent.com/pw/AL9nZEUOR58DTg9kYHLZv_jMFKbhpc509jbS2mYogf5hSl04nJHzkp2da_-FjqmjkEWGIiZEO3njiROYKS7yptU4VW7ql7HkQ-jKAadDpWHuQIeBZ8r7IO4HhH3eMnH9A3yaIhGU9Ojb8R6eKJ732cjoybnA=w384-h768-no?authuser=0"
+    },
+
+    {
+        "char_id": 15,
+        "f_name": "Calpernia",
+        "l_name": "",
+        "gender": "Female",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "Tevinter was the cradle of civilization. Imagine what her future could be. A crafter of wonders, standing against the savage Qunari. A beacon for all.",
+        "desc": "There are no records of Calpernia before she was sold into slavery as a child. She was a slave in Minrathous, in service to Magister Erasthenes. When Erasthenes was approached by Corypheus, the Elder One took interested in Calpernia. She joined hsi forces and eventually rose to become the leader of the Venatori. She believed the Venatori were the key to saving Tevinter. Her dreams of revitalizing the Imperium included uplifting the enslaved as real citizens. She believed in the worth of people unseen by the powerful and well-remembered her own longing for dignity. Calpernia used her new position to free many slaves, thereby creating a network of spies loyal to her alone in the process.",
+        "img_link": "https://lh3.googleusercontent.com/pw/AL9nZEU8WL3UkmzDnadNqa2uIGnCw2QgkqbIlGXjYeA9rp0CybON98SlhG1NTBe9dP--Rh2gde_lmsejCSflR9L4TiCTi5tDRlmsEA_uGHRrimH0jcTqE6NtSPZDWkyWS3D31mnhOfOgPnIS2Q0PaGfExcDU=w384-h640-no?authuser=0"
+    },
+
+    {
+        "char_id": 16,
+        "f_name": "Hawke",
+        "l_name": "",
+        "gender": "Conditional",
+        "race": "Human",
+        "role": "N/A",
+        "spec": "N/A",
+        "like_status": "unliked",
+        "quote": "Everyone has a story they tell themselves to justify bad decisions... and it never matters. In the end, you are always alone with your actions.",
+        "desc": "The eldest child of Malcolm Hawke and Leandra Amell, Hawke has lived in many places throughout Ferelden. Their father was a mage whose gift passed onto both Hawke and Bethany, Malcolm's younger daughter. Malcolm refused to submit himself to the Chantry's rule; he kept his abilities a secret and taught his children to do the same. Therefore, the family was constantly on the move to avoid templar hunters. Eventually, the family settled in the village of Lothering, building a home on the outskirts and making a life where they wouldn't forever be on the run. Though Leandra worried constantly that the templars would one day catch up with them, Malcolm's teachings were sufficient to keep them safe.",
+        "img_link": "https://lh3.googleusercontent.com/pw/AL9nZEUiuL0gKWKv7eKGo-kTm6O1C_OQUAImsp1Xhv0IeuE2fDS108MF3U_JkUr0-gs8sNntYO529FlNxEMCCN9X9TtGQYcgM-5O8tJGO6CXcrwHt3FqyUxgRLESketwLfqrv7FB2bUriFI_PBv0rsl_SJxZ=w384-h640-no?authuser=0"
     }
+
     
 ]
