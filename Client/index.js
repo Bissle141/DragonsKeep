@@ -74,13 +74,13 @@ const openSingleView = (id) => {
         alert('something went wrong.')
     })
 
-    document.body.style.overflowY = 'hidden;'
+    document.body.style.overflowY = 'hidden'
     window.scrollTo(0,0)
 }
 
 const exitSingleView = () => {
     document.querySelector("#single-view-container").remove()
-    document.body.style.overflowY = 'visible;'
+    document.body.style.overflowY = 'visible'
 }
 
 const searchCharacters = (event) => {
@@ -133,7 +133,9 @@ const deleteCharacter = (id) => {
 }
 
 const opencharacterCreator = () => {
-    document.body.style.overflowY = 'hidden;'
+    window.scrollTo(0, 0)
+    document.body.style.overflowY = 'hidden'
+
 
     if (document.querySelector("#character-creator-container")) exitCreateCharacter()
     if (document.querySelector("#single-view-container")) exitSingleView()
@@ -476,7 +478,7 @@ const hideLoadScn = () => {
 
 const exitCreateCharacter = () => {
     document.querySelector("#character-creator-container").remove()
-    document.body.style.overflowY = 'visible;'
+    document.body.style.overflowY = 'visible'
 }
 
 document.querySelector(".loading-screen").addEventListener("click", hideLoadScn)
