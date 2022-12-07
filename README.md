@@ -37,11 +37,12 @@ This project is a single-page full-stack application I've created to demonstrate
 <br></br>
 
 ### Tech Breakdown:
-  - NPM (Node Package Manager)
+#### ~  Coming Soon ~ 
+  <!-- - NPM (Node Package Manager)
   - Express
   - Cors
   - Axios
-  !!!
+  !!! -->
 <br></br>
 
 ---
