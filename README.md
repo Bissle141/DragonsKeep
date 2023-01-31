@@ -7,9 +7,10 @@ Welcome to Dragons Keep
   - [Description:](#description)
   - [Features:](#features)
   - [Tech Stack:](#tech-stack)
+    - [Tech Breakdown:](#tech-breakdown)
+      - [~  Coming Soon ~](#--coming-soon-)
   - [Screen Captures:](#screen-captures)
   - [Demo Video:](#demo-video)
-      - [(click)](#click)
 
 <br></br>
 
@@ -58,7 +59,7 @@ This project is a single-page full-stack application I've created to demonstrate
 
 ## Demo Video:
 [![Demo Video](https://lh3.googleusercontent.com/pw/AL9nZEVG25ySuWmm3golE1-WHsGVOTR5xEWPk1-AHTWLIaNow7CNzISAlgNWHIu3r_IB9EGDuJd4PDgEELzuj4ieRn6oYMDFp9-0PT1zZJKrjyns66vC8BugEb5uAIxd2Wazl1Zc0R8UlzrXUuwvfsBC5ucZ=w1153-h642-no?authuser=0)](https://youtu.be/oBbiBo4XeeU "Project Demo | Dragons Keep")
-#### (click)
+(click above to be taken to demo video on youtube)
 <br></br>
 
 
