@@ -7,8 +7,6 @@ Welcome to Dragons Keep
   - [Description:](#description)
   - [Features:](#features)
   - [Tech Stack:](#tech-stack)
-    - [Tech Breakdown:](#tech-breakdown)
-      - [~  Coming Soon ~](#--coming-soon-)
   - [Screen Captures:](#screen-captures)
   - [Demo Video:](#demo-video)
 
